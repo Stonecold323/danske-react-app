@@ -17,7 +17,6 @@ const FilmPage = () => {
         setPeople(res)
         setMovie(movie)
     }
-    console.log(people);
 
     const columns: GridColDef[] = [
         {
@@ -41,8 +40,6 @@ const FilmPage = () => {
             width: 150
         }
     ]
-
-    console.log(movie);
 
     return (
         <Box>

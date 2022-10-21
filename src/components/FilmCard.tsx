@@ -1,12 +1,10 @@
 import { Button, Card, CardActions, CardContent, Typography } from '@mui/material'
 import React from 'react'
-import { showPoepleFromMovie } from '../api/moviesApi';
 import { Film } from '../interfaces/Films';
-import { People } from '../interfaces/People';
 
 type FilmCardProps = {
     movie: Film
-    handleOnClick: any,
+    handleOnClick: () => Promise<void>,
 }
 
 const FilmCard = (props: FilmCardProps) => {

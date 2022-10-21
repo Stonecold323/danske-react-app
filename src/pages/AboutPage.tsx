@@ -1,9 +1,12 @@
-import { Box } from '@mui/material'
+import {Box, Typography} from '@mui/material'
 import React from 'react'
 
 const AboutPage = () => {
     return (
-        <Box>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, animi ullam! Dolorem neque doloremque animi, quod nisi doloribus ducimus ad commodi corporis eum nulla nam ex minima, a incidunt eaque!</Box>
+        <Box>
+            <Typography variant='h3'>About Page</Typography>
+            <Typography variant='body1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid delectus dolore earum enim esse explicabo id incidunt itaque iusto, natus nostrum odit porro quae quaerat quod quos rerum saepe vitae?</Typography>
+        </Box>
     )
 }
 

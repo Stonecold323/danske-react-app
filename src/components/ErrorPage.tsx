@@ -1,8 +1,9 @@
 import React from 'react'
+import {Box} from "@mui/material";
 
 const ErrorPage = () => {
     return (
-        <div>ErrorPage</div>
+        <Box>ErrorPage</Box>
     )
 }
 
